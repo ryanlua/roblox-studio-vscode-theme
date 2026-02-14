@@ -5,13 +5,19 @@
 		"editor.background": "#ffffff", // Background Color
 		"editor.selectionForeground": "#000000", // Selection Color
 		"editor.selectionBackground": "#d0dafe", // Selection Background Color
-		"editor.findMatchHighlightBackground": "#fae4aa", // Find Selection Background Color
-		"editor.findMatchBackground": "#e6e7ea", // Matching Word Background Color
+		"editor.inactiveLineHighlightBackground": "#eeeff1", // Current Line Highlight Color
+		"editor.findMatchBackground": "#d0dafe", // Selection Background Color
+		"editor.findMatchHighlightBackground": "#e6e7ea", // Matching Word Background Color
+		"editor.findMatchHighlightForeground": "#000000", // Selection Color
 		"editorWhitespace.foreground": "#bcbec8", // Whitespace Color
 		"editor.lineHighlightBackground": "#eeeff1", // Current Line Highlight Color
 		// Debugger Current Line Color
 		// Debugger Error Line Color
 		// Script Ruler Color
+		"editorError.foreground": "#df281f", // Error Color
+		"editorWarning.foreground": "#0035f5", // Warning Color
+		"editorInfo.foreground": "#bcbec8", // Information Color
+		"editorHint.foreground": "#335fff" // Hint Color
 	},
 	"tokenColors": [
 		{
@@ -58,7 +64,7 @@
 		},
 		{
 			"name": "Keyword Color",
-			"scope": "keyword.operator",
+			"scope": "keyword.operator.wordlike",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#001B7A"
@@ -74,7 +80,7 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"variable.language"
+				"variable.language",
 			],
 			"settings": {
 				"foreground": "#830F07"
