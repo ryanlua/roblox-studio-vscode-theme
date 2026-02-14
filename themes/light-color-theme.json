@@ -14,10 +14,12 @@
 		// Debugger Current Line Color
 		// Debugger Error Line Color
 		// Script Ruler Color
-		"editorError.foreground": "#df281f", // Error Color
-		"editorWarning.foreground": "#0035f5", // Warning Color
-		"editorInfo.foreground": "#bcbec8", // Information Color
-		"editorHint.foreground": "#335fff" // Hint Color
+		// "editorError.foreground": "#df281f", // Error Color
+		// "editorWarning.foreground": "#0035f5", // Warning Color
+		// "editorInfo.foreground": "#bcbec8", // Information Color
+		// "editorHint.foreground": "#335fff", // Hint Color
+		"editorLineNumber.foreground": "#000000",
+		"editorLineNumber.activeForeground": "#000000",
 	},
 	"tokenColors": [
 		{
