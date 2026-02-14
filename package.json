@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Roblox Studio",
+        "label": "Roblox Studio Light",
         "uiTheme": "vs",
-        "path": "./themes/Roblox Studio-color-theme.json"
+        "path": "./themes/light-color-theme.json"
       }
     ]
   }
