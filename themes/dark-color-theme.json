@@ -1,16 +1,17 @@
 {
 	"name": "Roblox Studio Dark",
 	"colors": {
-		"editor.foreground": "#bcbec8", // Text Color
 		"editor.background": "#202227", // Background Color
-		"editor.selectionForeground": "#ffffff", // Selection Color
 		"editor.selectionBackground": "#13235d", // Selection Background Color
-		"editor.inactiveLineHighlightBackground": "#353741", // Current Line Highlight Color
-		"editor.findMatchBackground": "#d0dafe", // Selection Background Color
-		"editor.findMatchHighlightBackground": "#494d5a", // Matching Word Background Color
-		"editor.findMatchHighlightForeground": "#ffffff", // Selection Color
-		"editorWhitespace.foreground": "#494d5a", // Whitespace Color
+		"editor.findMatchBackground": "#13235d", // Selection Background Color
+		"editor.findMatchHighlightForeground": "#ffffff",
+		"editor.findMatchHighlightBackground": "#976c00", // Find Selection Background Color
+		"editorError.foreground": "#df281f", // Error Color
+		"editorWarning.foreground": "#f57630", // Warning Color
+		"editorInfo.foreground": "#494d5a", // Information Color
+		"editorHint.foreground": "#335fff", // Hint Color
 		"editor.lineHighlightBackground": "#353741", // Current Line Highlight Color
+		"editorWhitespace.foreground": "#494d5a", // Whitespace Color
 	},
 	"tokenColors": [
 		{
@@ -67,11 +68,6 @@
 				"foreground": "#EB7973"
 			}
 		},
-		// Keyword Color
-		// Error Color
-		// Warning Color
-		// Information Color
-		// Hint Color
 		{
 			"name": "Built-in Function Color",
 			"scope": [
