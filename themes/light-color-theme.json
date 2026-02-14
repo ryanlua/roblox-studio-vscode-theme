@@ -27,6 +27,7 @@
 				"support.variable"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -34,8 +35,7 @@
 			"name": "Operator Color",
 			"scope": [
 				"keyword.operator",
-				"source.luau",
-				"punctuation.arguments"
+				"source",
 			],
 			"settings": {
 				"foreground": "#976C00"
@@ -64,7 +64,11 @@
 		},
 		{
 			"name": "Keyword Color",
-			"scope": "keyword.operator.wordlike",
+			"scope": [
+				"keyword.operator.wordlike",
+				"storage.modifier.visibility",
+				"keyword.control"
+			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#001B7A"
@@ -81,6 +85,7 @@
 				"constant.language",
 				"support.constant",
 				"variable.language",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#830F07"
@@ -88,7 +93,10 @@
 		},
 		{
 			"name": "Local Property Color",
-			"scope": "variable.other.property.luau",
+			"scope": [
+				"variable.other.property",
+				"variable.language.metamethod"
+			],
 			"settings": {
 				"foreground": "#6A6f81"
 			}
@@ -111,7 +119,7 @@
 		},
 		{
 			"name": "'function' Color",
-			"scope": "meta.function.luau",
+			"scope": "meta.function",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#001B7A"
@@ -119,7 +127,7 @@
 		},
 		{
 			"name": "'local' Color",
-			"scope": "storage.modifier.local.luau",
+			"scope": "storage.modifier.local",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#001B7A"
@@ -127,7 +135,7 @@
 		},
 		{
 			"name": "'self' Color",
-			"scope": "variable.language.self.luau",
+			"scope": "variable.language.self",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#001B7A"
@@ -138,17 +146,18 @@
 			"name": "Function Name Color",
 			"scope": [
 				"entity.name.function",
-				"support.function"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#002DD6"
 			}
 		},
 		// TODO Color
 		{
 			"name": "Script Bracket Color",
-			"scope": "punctuation.table",
+			"scope": "punctuation",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#976C00"
 			}
 		},
