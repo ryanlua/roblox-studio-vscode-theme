@@ -20,6 +20,9 @@
 		// "editorHint.foreground": "#335fff", // Hint Color
 		"editorLineNumber.foreground": "#000000",
 		"editorLineNumber.activeForeground": "#000000",
+		"editorGroupHeader.tabsBackground": "#eeeff1",
+		"tab.inactiveBackground": "#eeeff1",
+		"tab.hoverBackground": "#ebf1ff",
 	},
 	"tokenColors": [
 		{
