@@ -1,0 +1,21 @@
+{
+  "name": "roblox-studio-theme",
+  "displayName": "Roblox Studio Theme",
+  "description": "Roblox Studio theme for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Roblox Studio",
+        "uiTheme": "vs",
+        "path": "./themes/Roblox Studio-color-theme.json"
+      }
+    ]
+  }
+}
