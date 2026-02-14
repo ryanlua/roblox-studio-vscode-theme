@@ -142,7 +142,8 @@
 			"name": "Type Color",
 			"scope": [
 				"storage.type",
-				"support.type"
+				"support.type",
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#0C9B5A"
