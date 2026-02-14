@@ -1,0 +1,169 @@
+{
+	"name": "Roblox Studio Dark",
+	"colors": {
+		"editor.foreground": "#bcbec8", // Text Color
+		"editor.background": "#202227", // Background Color
+		"editor.selectionForeground": "#ffffff", // Selection Color
+		"editor.selectionBackground": "#13235d", // Selection Background Color
+		"editor.inactiveLineHighlightBackground": "#353741", // Current Line Highlight Color
+		"editor.findMatchBackground": "#d0dafe", // Selection Background Color
+		"editor.findMatchHighlightBackground": "#494d5a", // Matching Word Background Color
+		"editor.findMatchHighlightForeground": "#ffffff", // Selection Color
+		"editorWhitespace.foreground": "#494d5a", // Whitespace Color
+		"editor.lineHighlightBackground": "#353741", // Current Line Highlight Color
+	},
+	"tokenColors": [
+		{
+			"name": "Text Color",
+			"scope": [
+				"variable",
+				"support.variable"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#BCBEC8"
+			}
+		},
+		{
+			"name": "Operator Color",
+			"scope": [
+				"keyword.operator",
+				"source",
+			],
+			"settings": {
+				"foreground": "#BCBEC8"
+			}
+		},
+		{
+			"name": "Number Color",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#F2BA28"
+			}
+		},
+		{
+			"name": "String Color",
+			"scope": "string",
+			"settings": {
+				"foreground": "#8EE9B6"
+			}
+		},
+		{
+			"name": "Comment Color",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#6A6F81"
+			}
+		},
+		{
+			"name": "Keyword Color",
+			"scope": [
+				"keyword.operator.wordlike",
+				"storage.modifier.visibility",
+				"keyword.control"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#EB7973"
+			}
+		},
+		// Keyword Color
+		// Error Color
+		// Warning Color
+		// Information Color
+		// Hint Color
+		{
+			"name": "Built-in Function Color",
+			"scope": [
+				"constant.language",
+				"support.constant",
+				"variable.language",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#8FB4FF"
+			}
+		},
+		{
+			"name": "Local Property Color",
+			"scope": [
+				"variable.other.property",
+				"variable.language.metamethod"
+			],
+			"settings": {
+				"foreground": "#70A0FF"
+			}
+		},
+		{
+			"name": "'nil' Color",
+			"scope": "constant.language.nil",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#F2BA2A"
+			}
+		},
+		{
+			"name": "Bool Color",
+			"scope": "constant.language.boolean",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#F2BA2A"
+			}
+		},
+		{
+			"name": "'function' Color",
+			"scope": "meta.function",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#EB7973"
+			}
+		},
+		{
+			"name": "'local' Color",
+			"scope": "storage.modifier.local",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#EB7973"
+			}
+		},
+		{
+			"name": "'self' Color",
+			"scope": "variable.language.self",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#EB7973"
+			}
+		},
+		// Luau Keyword Color
+		{
+			"name": "Function Name Color",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FAE4AA"
+			}
+		},
+		// TODO Color
+		{
+			"name": "Script Bracket Color",
+			"scope": "punctuation",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#BCBEC8"
+			}
+		},
+		{
+			"name": "Type Color",
+			"scope": [
+				"storage.type",
+				"support.type",
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#528BFF"
+			}
+		},
+	]
+}
