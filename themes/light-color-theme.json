@@ -56,6 +56,14 @@
 				"foreground": "#015F35"
 			}
 		},
+		{
+			"name": "Keyword Color",
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#001B7A"
+			}
+		},
 		// Keyword Color
 		// Error Color
 		// Warning Color
