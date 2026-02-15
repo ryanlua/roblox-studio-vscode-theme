@@ -1,9 +1,9 @@
 {
   "name": "roblox-studio-theme",
   "displayName": "Roblox Studio Theme",
-  "description": "Roblox Studio light and dark theme for VS Code",
   "version": "0.0.1",
   "private": true,
+  "description": "Roblox Studio light and dark theme for VS Code",
   "categories": [
     "Themes"
   ],
@@ -44,6 +44,13 @@
     "vscode": "^1.100.0"
   },
   "icon": "images/icon.png",
+  "badges": [
+    {
+      "description": "Chat in the Roblox OSS Discord server",
+      "url": "https://img.shields.io/discord/385151591524597761?logo=discord&logoColor=white&label=roblox%20oss&color=00be9c",
+      "href": "https://discord.gg/Qm3JNyEc32"
+    }
+  ],
   "galleryBanner": {
     "color": "#335fff",
     "theme": "dark"
