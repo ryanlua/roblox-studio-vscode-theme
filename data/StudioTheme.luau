@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-	Extracts colors from the current Roblox Studio theme to print as a JSON output.
+	Extracts colors from the current Roblox Studio theme to print as a JSON.
 ]]
 
 local HttpService = game:GetService("HttpService")
@@ -9,17 +9,17 @@ local HttpService = game:GetService("HttpService")
 local modifiers = Enum.StudioStyleGuideModifier:GetEnumItems()
 local colors = Enum.StudioStyleGuideColor:GetEnumItems()
 
-local output = {}
+local theme = {}
 
 for _, color in ipairs(colors) do
 	local studioTheme = settings().Studio.Theme :: StudioTheme
 
-	output[color.Name] = {}
+	theme[color.Name] = {}
 
 	for _, modifier in ipairs(modifiers) do
-		output[color.Name][modifier.Name] = "#" .. studioTheme:GetColor(color, modifier):ToHex()
+		theme[color.Name][modifier.Name] = "#" .. studioTheme:GetColor(color, modifier):ToHex()
 	end
 end
 
-local json = HttpService:JSONEncode(output)
+local json = HttpService:JSONEncode(theme)
 print(json)
