@@ -1,20 +1,31 @@
 {
   "name": "roblox-studio-theme",
   "displayName": "Roblox Studio Theme",
-  "description": "Roblox Studio theme for VS Code",
+  "description": "Roblox Studio light and dark theme for VS Code",
   "version": "0.0.1",
-  "license": "MIT",
-  "keywords": [
-    "roblox",
-    "roblox studio",
-    "luau"
-  ],
-  "engines": {
-    "vscode": "^1.109.0"
-  },
+  "private": true,
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dark",
+    "light",
+    "luau",
+    "roblox",
+    "theme"
+  ],
+  "homepage": "https://github.com/ryanlua/roblox-studio-vscode-theme/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/ryanlua/roblox-studio-vscode-theme/issues",
+    "email": "support@ryanluu.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlua/roblox-studio-vscode-theme.git"
+  },
+  "license": "MIT",
+  "author": "Ryan Luu <ryan.luu@ryanluu.dev>",
+  "publisher": "ryanluu",
   "contributes": {
     "themes": [
       {
@@ -28,5 +39,17 @@
         "path": "./themes/dark-color-theme.json"
       }
     ]
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#335fff",
+    "theme": "dark"
+  },
+  "preview": true,
+  "sponsor": {
+    "url": "https://github.com/sponsors/ryanlua"
   }
 }
