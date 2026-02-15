@@ -4,6 +4,11 @@
   "description": "Roblox Studio theme for VS Code",
   "version": "0.0.1",
   "license": "MIT",
+  "keywords": [
+    "roblox",
+    "roblox studio",
+    "luau"
+  ],
   "engines": {
     "vscode": "^1.109.0"
   },
