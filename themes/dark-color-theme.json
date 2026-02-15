@@ -12,6 +12,15 @@
 		"editorHint.foreground": "#335fff", // Hint Color
 		"editor.lineHighlightBackground": "#353741", // Current Line Highlight Color
 		"editorWhitespace.foreground": "#494d5a", // Whitespace Color
+		"sideBar.background": "#191a1f",
+		"titleBar.activeBackground": "#272930",
+		"titleBar.inactiveBackground": "#272930",
+		"tab.inactiveBackground": "#191a1f",
+		"menu.background": "#272930",
+		"menu.separatorBackground": "#1a1b20",
+		"editorGroupHeader.tabsBackground": "#191a1f",
+		"activityBar.background": "#191a1f",
+		"statusBar.background": "#191a1f",
 	},
 	"tokenColors": [
 		{
