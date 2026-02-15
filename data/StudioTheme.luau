@@ -1,5 +1,9 @@
 --!strict
 
+--[[
+	Extracts colors from the current Roblox Studio theme to print as a JSON output.
+]]
+
 local HttpService = game:GetService("HttpService")
 
 local modifiers = Enum.StudioStyleGuideModifier:GetEnumItems()
