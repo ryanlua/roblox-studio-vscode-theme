@@ -33,10 +33,26 @@ local vscodeTheme = {
 		["editor.lineHighlightBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptEditorCurrentLine),
 		["editorWhitespace.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWhitespace),
 		-- Workspace Colors
-		["titleBar.activeBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Titlebar),
+		["titleBar.activeBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.Titlebar,
+			Enum.StudioStyleGuideModifier.Selected
+		),
 		["titleBar.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Titlebar),
+		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
+		["menubar.selectionForeground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.TitlebarText,
+			Enum.StudioStyleGuideModifier.Selected
+		),
+		["menu.background"] = getStudioColor(Enum.StudioStyleGuideColor.TableItem),
+		["menu.selectionBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.TableItem,
+			Enum.StudioStyleGuideModifier.Selected
+		),
+		["menu.separatorBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Separator),
 		["statusBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.StatusBar),
+		["sideBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.Item),
 		["editorGutter.addedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumAdditionBackground),
+		["sideBarSectionHeader.background"] = getStudioColor(Enum.StudioStyleGuideColor.CategoryItem),
 		["editorGutter.deletedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumDeletionBackground),
 		["diffEditor.insertedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextAdditionBackground),
 		["diffEditor.removedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextDeletionBackground),
