@@ -2,7 +2,7 @@
 
 --[[
 	Extracts colors from the current Roblox Studio theme to print as a JSON.
-
+	Used for inspecting the colors available in the current theme.
 	Run this in Roblox Studio from the command bar, then save the JSON in the output.
 ]]
 
@@ -24,5 +24,5 @@ for _, color in ipairs(colors) do
 	end
 end
 
-local json = HttpService:JSONEncode(theme)
+local json = HttpService:JSONEncode(studioTheme)
 print(json)
