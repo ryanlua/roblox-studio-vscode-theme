@@ -1,0 +1,185 @@
+{
+	"colors": {
+		"editorInfo.foreground": "#494d5a",
+		"editorHint.foreground": "#335fff",
+		"editor.selectionBackground": "#13235d",
+		"editorGutter.addedBackground": "#353741",
+		"editor.lineHighlightBackground": "#353741",
+		"editor.background": "#202227",
+		"editor.findMatchHighlightBackground": "#976c00",
+		"statusBar.background": "#191a1f",
+		"editor.foreground": "#bcbec8",
+		"diffEditor.removedTextBackground": "#571e00",
+		"editor.findMatchHighlightForeground": "#bcbec8",
+		"diffEditor.insertedTextBackground": "#353741",
+		"editorWarning.foreground": "#f57630",
+		"editorGutter.deletedBackground": "#571e00",
+		"titleBar.inactiveBackground": "#202227",
+		"editorError.foreground": "#df281f",
+		"editorWhitespace.foreground": "#494d5a",
+		"editor.findMatchBackground": "#13235d",
+		"titleBar.activeBackground": "#202227"
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"variable",
+				"support.variable"
+			],
+			"name": "Text Color",
+			"settings": {
+				"foreground": "#bcbec8"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator",
+				"source"
+			],
+			"name": "Operator Color",
+			"settings": {
+				"foreground": "#bcbec8"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric"
+			],
+			"name": "Number Color",
+			"settings": {
+				"foreground": "#f2ba2a"
+			}
+		},
+		{
+			"scope": [
+				"string"
+			],
+			"name": "String Color",
+			"settings": {
+				"foreground": "#8ee9b6"
+			}
+		},
+		{
+			"scope": [
+				"comment"
+			],
+			"name": "Comment Color",
+			"settings": {
+				"foreground": "#6a6f81"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.wordlike",
+				"storage.modifier.visibility",
+				"keyword.control"
+			],
+			"name": "Keyword Color",
+			"settings": {
+				"foreground": "#eb7973",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.language",
+				"support.constant",
+				"variable.language",
+				"support.function"
+			],
+			"name": "Built-in Function Color",
+			"settings": {
+				"foreground": "#8fb4ff"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.property",
+				"variable.language.metamethod"
+			],
+			"name": "Local Property Color",
+			"settings": {
+				"foreground": "#70a0ff"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.nil"
+			],
+			"name": "'nil' Color",
+			"settings": {
+				"foreground": "#f2ba2a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.boolean"
+			],
+			"name": "Bool Color",
+			"settings": {
+				"foreground": "#f2ba2a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.function"
+			],
+			"name": "'function' Color",
+			"settings": {
+				"foreground": "#eb7973",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.local"
+			],
+			"name": "'local' Color",
+			"settings": {
+				"foreground": "#eb7973",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"variable.language.self"
+			],
+			"name": "'self' Color",
+			"settings": {
+				"foreground": "#eb7973",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function"
+			],
+			"name": "Function Name Color",
+			"settings": {
+				"foreground": "#fae4aa"
+			}
+		},
+		{
+			"scope": [
+				"punctuation"
+			],
+			"name": "Script Bracket Color",
+			"settings": {
+				"foreground": "#bcbec8"
+			}
+		},
+		{
+			"scope": [
+				"storage.type",
+				"support.type",
+				"entity.name.type"
+			],
+			"name": "Type Color",
+			"settings": {
+				"foreground": "#70a0ff"
+			}
+		}
+	]
+}

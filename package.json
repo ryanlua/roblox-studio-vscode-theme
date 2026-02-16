@@ -32,14 +32,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Roblox Studio Light",
+        "label": "Roblox Studio Light Default",
         "uiTheme": "vs",
-        "path": "./themes/light-color-theme.json"
+        "path": "./themes/light-default-color-theme.json"
       },
       {
-        "label": "Roblox Studio Dark",
+        "label": "Roblox Studio Dark Default",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-color-theme.json"
+        "path": "./themes/dark-default-color-theme.json"
       }
     ]
   },
