@@ -26,6 +26,9 @@
   "license": "MIT",
   "author": "Ryan Luu <ryan.luu@ryanluu.dev>",
   "publisher": "ryanluu",
+  "scripts": {
+    "deploy": "vsce publish --yarn"
+  },
   "contributes": {
     "themes": [
       {
@@ -39,6 +42,9 @@
         "path": "./themes/dark-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
   },
   "engines": {
     "vscode": "^1.100.0"
