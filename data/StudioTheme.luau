@@ -2,6 +2,8 @@
 
 --[[
 	Extracts colors from the current Roblox Studio theme to print as a JSON.
+
+	Run this in Roblox Studio from the command bar, then save the JSON in the output.
 ]]
 
 local HttpService = game:GetService("HttpService")
