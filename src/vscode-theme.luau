@@ -48,6 +48,11 @@ local vscodeTheme = {
 			Enum.StudioStyleGuideColor.TableItem,
 			Enum.StudioStyleGuideModifier.Selected
 		),
+		["list.activeSelectionBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.Item,
+			Enum.StudioStyleGuideModifier.Selected
+		),
+		["list.focusBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Item, Enum.StudioStyleGuideModifier.Hover),
 		["menu.separatorBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Separator),
 		["statusBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.StatusBar),
 		["sideBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.Item),

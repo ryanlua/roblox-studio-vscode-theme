@@ -1,33 +1,33 @@
 {
 	"colors": {
-		"editorInfo.foreground": "#494d5a",
+		"editorInfo.foreground": "#bcbec8",
 		"editorHint.foreground": "#335fff",
-		"list.activeSelectionBackground": "#13235d",
-		"diffEditor.insertedTextBackground": "#353741",
-		"editor.selectionBackground": "#13235d",
-		"editorGutter.deletedBackground": "#571e00",
-		"sideBarSectionHeader.background": "#202227",
-		"menu.separatorBackground": "#202227",
-		"editorGutter.addedBackground": "#353741",
-		"editor.lineHighlightBackground": "#353741",
-		"editor.background": "#202227",
-		"menubar.selectionForeground": "#bcbec8",
-		"editor.findMatchHighlightBackground": "#976c00",
+		"list.activeSelectionBackground": "#d0dafe",
+		"diffEditor.insertedTextBackground": "#e6e7ea",
+		"editor.selectionBackground": "#d0dafe",
+		"editorGutter.deletedBackground": "#f7cdcb",
+		"sideBarSectionHeader.background": "#e6e7ea",
+		"menu.separatorBackground": "#bcbec8",
+		"editorGutter.addedBackground": "#d0fbe3",
+		"editor.lineHighlightBackground": "#eeeff1",
+		"editor.background": "#ffffff",
+		"menubar.selectionForeground": "#000000",
+		"editor.findMatchHighlightBackground": "#fae4aa",
 		"editorError.foreground": "#df281f",
-		"statusBar.background": "#191a1f",
-		"editor.foreground": "#bcbec8",
-		"diffEditor.removedTextBackground": "#571e00",
-		"editor.findMatchHighlightForeground": "#bcbec8",
-		"list.focusBackground": "#353741",
-		"editorWhitespace.foreground": "#494d5a",
-		"menu.background": "#272930",
-		"editorWarning.foreground": "#f57630",
-		"editorGroupHeader.tabsBackground": "#191a1f",
-		"titleBar.inactiveBackground": "#202227",
-		"sideBar.background": "#191a1f",
-		"menu.selectionBackground": "#13235d",
-		"editor.findMatchBackground": "#13235d",
-		"titleBar.activeBackground": "#202227"
+		"statusBar.background": "#ffffff",
+		"editor.foreground": "#000000",
+		"diffEditor.removedTextBackground": "#ffdfde",
+		"editor.findMatchHighlightForeground": "#000000",
+		"list.focusBackground": "#ebf1ff",
+		"editorWhitespace.foreground": "#bcbec8",
+		"menu.background": "#f7f7f8",
+		"editorWarning.foreground": "#0035f5",
+		"editorGroupHeader.tabsBackground": "#eeeff1",
+		"titleBar.inactiveBackground": "#e6e7ea",
+		"sideBar.background": "#ffffff",
+		"menu.selectionBackground": "#d0dafe",
+		"editor.findMatchBackground": "#d0dafe",
+		"titleBar.activeBackground": "#e6e7ea"
 	},
 	"tokenColors": [
 		{
@@ -37,7 +37,7 @@
 			],
 			"name": "Text Color",
 			"settings": {
-				"foreground": "#bcbec8"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			],
 			"name": "Operator Color",
 			"settings": {
-				"foreground": "#bcbec8"
+				"foreground": "#976c00"
 			}
 		},
 		{
@@ -56,7 +56,7 @@
 			],
 			"name": "Number Color",
 			"settings": {
-				"foreground": "#f2ba2a"
+				"foreground": "#0c9b5a"
 			}
 		},
 		{
@@ -65,7 +65,7 @@
 			],
 			"name": "String Color",
 			"settings": {
-				"foreground": "#8ee9b6"
+				"foreground": "#6e0785"
 			}
 		},
 		{
@@ -74,7 +74,7 @@
 			],
 			"name": "Comment Color",
 			"settings": {
-				"foreground": "#6a6f81"
+				"foreground": "#015f35"
 			}
 		},
 		{
@@ -85,7 +85,7 @@
 			],
 			"name": "Keyword Color",
 			"settings": {
-				"foreground": "#eb7973",
+				"foreground": "#001b7a",
 				"fontStyle": "bold"
 			}
 		},
@@ -98,7 +98,7 @@
 			],
 			"name": "Built-in Function Color",
 			"settings": {
-				"foreground": "#8fb4ff"
+				"foreground": "#830f07"
 			}
 		},
 		{
@@ -108,7 +108,7 @@
 			],
 			"name": "Local Property Color",
 			"settings": {
-				"foreground": "#70a0ff"
+				"foreground": "#6a6f81"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			],
 			"name": "'nil' Color",
 			"settings": {
-				"foreground": "#f2ba2a",
+				"foreground": "#0c9b5a",
 				"fontStyle": "bold"
 			}
 		},
@@ -127,7 +127,7 @@
 			],
 			"name": "Bool Color",
 			"settings": {
-				"foreground": "#f2ba2a",
+				"foreground": "#0c9b5a",
 				"fontStyle": "bold"
 			}
 		},
@@ -137,7 +137,7 @@
 			],
 			"name": "'function' Color",
 			"settings": {
-				"foreground": "#eb7973",
+				"foreground": "#001b7a",
 				"fontStyle": "bold"
 			}
 		},
@@ -147,7 +147,7 @@
 			],
 			"name": "'local' Color",
 			"settings": {
-				"foreground": "#eb7973",
+				"foreground": "#001b7a",
 				"fontStyle": "bold"
 			}
 		},
@@ -157,7 +157,7 @@
 			],
 			"name": "'self' Color",
 			"settings": {
-				"foreground": "#eb7973",
+				"foreground": "#001b7a",
 				"fontStyle": "bold"
 			}
 		},
@@ -167,7 +167,7 @@
 			],
 			"name": "Function Name Color",
 			"settings": {
-				"foreground": "#fae4aa"
+				"foreground": "#002dd6"
 			}
 		},
 		{
@@ -176,7 +176,7 @@
 			],
 			"name": "Script Bracket Color",
 			"settings": {
-				"foreground": "#bcbec8"
+				"foreground": "#976c00"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			],
 			"name": "Type Color",
 			"settings": {
-				"foreground": "#70a0ff"
+				"foreground": "#6a6f81"
 			}
 		}
 	]
