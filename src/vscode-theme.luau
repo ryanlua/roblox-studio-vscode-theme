@@ -48,6 +48,10 @@ local vscodeTheme = {
 			Enum.StudioStyleGuideColor.TableItem,
 			Enum.StudioStyleGuideModifier.Selected
 		),
+		["list.inactiveSelectionForeground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.Item,
+			Enum.StudioStyleGuideModifier.Hover
+		),
 		["list.activeSelectionBackground"] = getStudioColor(
 			Enum.StudioStyleGuideColor.Item,
 			Enum.StudioStyleGuideModifier.Selected
