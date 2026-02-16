@@ -17,54 +17,78 @@ end
 
 local vscodeTheme = {
 	colors = {
-		-- Script Editor Colors
+		-- Button Colors
+		["button.background"] = getStudioColor(Enum.StudioStyleGuideColor.MainButton),
+		["button.border"] = getStudioColor(Enum.StudioStyleGuideColor.ButtonBorder),
+		["button.hoverBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.MainButton,
+			Enum.StudioStyleGuideModifier.Hover
+		),
+		["button.secondaryBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Button),
+
+		-- Diff Colors
+		["diffEditor.insertedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextAdditionBackground),
+		["diffEditor.removedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextDeletionBackground),
+
+		-- Editor Colors
 		["editor.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptBackground),
-		["editor.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptText),
-		["editor.selectionBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
 		["editor.findMatchBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
 		["editor.findMatchHighlightBackground"] = getStudioColor(
 			Enum.StudioStyleGuideColor.ScriptFindSelectionBackground
 		),
 		["editor.findMatchHighlightForeground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
-		["editorError.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptError),
-		["editorWarning.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWarning),
-		["editorInfo.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptInformation),
-		["editorHint.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptHint),
+		["editor.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptText),
 		["editor.lineHighlightBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptEditorCurrentLine),
-		["editorWhitespace.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWhitespace),
-		-- Workspace Colors
-		["titleBar.activeBackground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.Titlebar,
-			Enum.StudioStyleGuideModifier.Selected
-		),
-		["titleBar.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Titlebar),
+		["editor.selectionBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
+		["editorError.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptError),
+		["editorGroup.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["editorGroupHeader.tabsBorder"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
-		["menubar.selectionForeground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.TitlebarText,
-			Enum.StudioStyleGuideModifier.Selected
-		),
-		["menu.background"] = getStudioColor(Enum.StudioStyleGuideColor.TableItem),
-		["menu.selectionBackground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.TableItem,
-			Enum.StudioStyleGuideModifier.Selected
-		),
-		["list.inactiveSelectionForeground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.Item,
-			Enum.StudioStyleGuideModifier.Hover
-		),
+		["editorGutter.addedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumAdditionBackground),
+		["editorGutter.deletedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumDeletionBackground),
+		["editorHint.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptHint),
+		["editorInfo.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptInformation),
+		["editorWarning.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWarning),
+		["editorWhitespace.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWhitespace),
+
+		-- Input Colors
+		["input.background"] = getStudioColor(Enum.StudioStyleGuideColor.InputFieldBackground),
+		["input.border"] = getStudioColor(Enum.StudioStyleGuideColor.InputFieldBorder),
+
+		-- List Colors
 		["list.activeSelectionBackground"] = getStudioColor(
 			Enum.StudioStyleGuideColor.Item,
 			Enum.StudioStyleGuideModifier.Selected
 		),
 		["list.focusBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Item, Enum.StudioStyleGuideModifier.Hover),
+		["list.inactiveSelectionForeground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.Item,
+			Enum.StudioStyleGuideModifier.Hover
+		),
+
+		-- Menu Colors
+		["menu.background"] = getStudioColor(Enum.StudioStyleGuideColor.TableItem),
+		["menu.selectionBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.TableItem,
+			Enum.StudioStyleGuideModifier.Selected
+		),
 		["menu.separatorBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Separator),
-		["statusBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.StatusBar),
+		["menubar.selectionForeground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.TitlebarText,
+			Enum.StudioStyleGuideModifier.Selected
+		),
+
+		-- Sidebar and Workspace Colors
+		["activityBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.RibbonButton),
 		["sideBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.Item),
-		["editorGutter.addedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumAdditionBackground),
 		["sideBarSectionHeader.background"] = getStudioColor(Enum.StudioStyleGuideColor.CategoryItem),
-		["editorGutter.deletedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumDeletionBackground),
-		["diffEditor.insertedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextAdditionBackground),
-		["diffEditor.removedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextDeletionBackground),
+		["statusBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.StatusBar),
+		["tab.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
+		["titleBar.activeBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.Titlebar,
+			Enum.StudioStyleGuideModifier.Selected
+		),
+		["titleBar.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Titlebar),
 	},
 	tokenColors = {
 		{
