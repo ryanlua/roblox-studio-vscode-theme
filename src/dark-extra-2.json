@@ -42,11 +42,11 @@
 		"Pressed": "#272930"
 	},
 	"ScriptMethod": {
-		"Hover": "#fae4aa",
-		"Default": "#fae4aa",
-		"Selected": "#fae4aa",
-		"Disabled": "#fae4aa",
-		"Pressed": "#fae4aa"
+		"Hover": "#8fb4ff",
+		"Default": "#8fb4ff",
+		"Selected": "#8fb4ff",
+		"Disabled": "#8fb4ff",
+		"Pressed": "#8fb4ff"
 	},
 	"Light": {
 		"Hover": "#353741",
@@ -112,11 +112,11 @@
 		"Pressed": "#353535"
 	},
 	"ScriptSelectionText": {
-		"Hover": "#000000",
-		"Default": "#000000",
-		"Selected": "#000000",
-		"Disabled": "#000000",
-		"Pressed": "#000000"
+		"Hover": "#ffffff",
+		"Default": "#ffffff",
+		"Selected": "#ffffff",
+		"Disabled": "#ffffff",
+		"Pressed": "#ffffff"
 	},
 	"DiffTextNoChange": {
 		"Hover": "#bcbec8",
@@ -133,11 +133,11 @@
 		"Pressed": "#976c00"
 	},
 	"ScriptBuiltInFunction": {
-		"Hover": "#8fb4ff",
-		"Default": "#8fb4ff",
-		"Selected": "#8fb4ff",
-		"Disabled": "#8fb4ff",
-		"Pressed": "#8fb4ff"
+		"Hover": "#f7f7f8",
+		"Default": "#f7f7f8",
+		"Selected": "#f7f7f8",
+		"Disabled": "#f7f7f8",
+		"Pressed": "#f7f7f8"
 	},
 	"ColorPickerFrame": {
 		"Hover": "#191a1f",
@@ -161,11 +161,11 @@
 		"Pressed": "#528bff"
 	},
 	"ScriptFunction": {
-		"Hover": "#eb7973",
-		"Default": "#eb7973",
-		"Selected": "#eb7973",
-		"Disabled": "#eb7973",
-		"Pressed": "#eb7973"
+		"Hover": "#8fb4ff",
+		"Default": "#8fb4ff",
+		"Selected": "#8fb4ff",
+		"Disabled": "#8fb4ff",
+		"Pressed": "#8fb4ff"
 	},
 	"TableItem": {
 		"Hover": "#353741",
@@ -301,11 +301,11 @@
 		"Pressed": "#202227"
 	},
 	"ScriptProperty": {
-		"Hover": "#70a0ff",
-		"Default": "#70a0ff",
-		"Selected": "#70a0ff",
-		"Disabled": "#70a0ff",
-		"Pressed": "#70a0ff"
+		"Hover": "#f7f7f8",
+		"Default": "#f7f7f8",
+		"Selected": "#f7f7f8",
+		"Disabled": "#f7f7f8",
+		"Pressed": "#f7f7f8"
 	},
 	"Separator": {
 		"Hover": "#202227",
@@ -392,11 +392,11 @@
 		"Pressed": "#353741"
 	},
 	"ScriptText": {
-		"Hover": "#bcbec8",
-		"Default": "#bcbec8",
-		"Selected": "#bcbec8",
-		"Disabled": "#bcbec8",
-		"Pressed": "#bcbec8"
+		"Hover": "#f7f7f8",
+		"Default": "#f7f7f8",
+		"Selected": "#f7f7f8",
+		"Disabled": "#f7f7f8",
+		"Pressed": "#f7f7f8"
 	},
 	"AICOOverlayButtonBackground": {
 		"Hover": "#353741",
@@ -406,11 +406,11 @@
 		"Pressed": "#353741"
 	},
 	"ScriptFunctionName": {
-		"Hover": "#fae4aa",
-		"Default": "#fae4aa",
-		"Selected": "#fae4aa",
-		"Disabled": "#fae4aa",
-		"Pressed": "#fae4aa"
+		"Hover": "#c49315",
+		"Default": "#c49315",
+		"Selected": "#c49315",
+		"Disabled": "#c49315",
+		"Pressed": "#c49315"
 	},
 	"Button": {
 		"Hover": "#353741",
@@ -427,11 +427,11 @@
 		"Pressed": "#002dd6"
 	},
 	"ScriptOperator": {
-		"Hover": "#bcbec8",
-		"Default": "#bcbec8",
-		"Selected": "#bcbec8",
-		"Disabled": "#bcbec8",
-		"Pressed": "#bcbec8"
+		"Hover": "#cd377b",
+		"Default": "#cd377b",
+		"Selected": "#cd377b",
+		"Disabled": "#cd377b",
+		"Pressed": "#cd377b"
 	},
 	"DebuggerErrorLine": {
 		"Hover": "#353741",
@@ -462,11 +462,11 @@
 		"Pressed": "#353741"
 	},
 	"ScriptKeyword": {
-		"Hover": "#eb7973",
-		"Default": "#eb7973",
-		"Selected": "#eb7973",
-		"Disabled": "#eb7973",
-		"Pressed": "#eb7973"
+		"Hover": "#cd377b",
+		"Default": "#cd377b",
+		"Selected": "#cd377b",
+		"Disabled": "#cd377b",
+		"Pressed": "#cd377b"
 	},
 	"DialogMainButton": {
 		"Hover": "#528bff",
@@ -553,11 +553,11 @@
 		"Pressed": "#353741"
 	},
 	"ScriptString": {
-		"Hover": "#8ee9b6",
-		"Default": "#8ee9b6",
-		"Selected": "#8ee9b6",
-		"Disabled": "#8ee9b6",
-		"Pressed": "#8ee9b6"
+		"Hover": "#f7d273",
+		"Default": "#f7d273",
+		"Selected": "#f7d273",
+		"Disabled": "#f7d273",
+		"Pressed": "#f7d273"
 	},
 	"ScriptMatchingWordSelectionBackground": {
 		"Hover": "#494d5a",
@@ -567,11 +567,11 @@
 		"Pressed": "#494d5a"
 	},
 	"ScriptBool": {
-		"Hover": "#f2ba2a",
-		"Default": "#f2ba2a",
-		"Selected": "#f2ba2a",
-		"Disabled": "#f2ba2a",
-		"Pressed": "#f2ba2a"
+		"Hover": "#a766f5",
+		"Default": "#a766f5",
+		"Selected": "#a766f5",
+		"Disabled": "#a766f5",
+		"Pressed": "#a766f5"
 	},
 	"CheckedFieldIndicator": {
 		"Hover": "#528bff",
@@ -581,11 +581,11 @@
 		"Pressed": "#528bff"
 	},
 	"ScriptLuauKeyword": {
-		"Hover": "#eb7973",
-		"Default": "#eb7973",
-		"Selected": "#eb7973",
-		"Disabled": "#eb7973",
-		"Pressed": "#eb7973"
+		"Hover": "#cd377b",
+		"Default": "#cd377b",
+		"Selected": "#cd377b",
+		"Disabled": "#cd377b",
+		"Pressed": "#cd377b"
 	},
 	"TitlebarText": {
 		"Hover": "#bcbec8",
@@ -602,11 +602,11 @@
 		"Pressed": "#df6af7"
 	},
 	"ScriptEditorCurrentLine": {
-		"Hover": "#353741",
-		"Default": "#353741",
-		"Selected": "#353741",
-		"Disabled": "#353741",
-		"Pressed": "#353741"
+		"Hover": "#272930",
+		"Default": "#272930",
+		"Selected": "#272930",
+		"Disabled": "#272930",
+		"Pressed": "#272930"
 	},
 	"InputFieldBackground": {
 		"Hover": "#353741",
@@ -665,11 +665,11 @@
 		"Pressed": "#571e00"
 	},
 	"ScriptBracket": {
-		"Hover": "#bcbec8",
-		"Default": "#bcbec8",
-		"Selected": "#bcbec8",
-		"Disabled": "#bcbec8",
-		"Pressed": "#bcbec8"
+		"Hover": "#cd377b",
+		"Default": "#cd377b",
+		"Selected": "#cd377b",
+		"Disabled": "#cd377b",
+		"Pressed": "#cd377b"
 	},
 	"DropShadow": {
 		"Hover": "#000000",
@@ -721,11 +721,11 @@
 		"Pressed": "#bcbec8"
 	},
 	"ScriptSelf": {
-		"Hover": "#eb7973",
-		"Default": "#eb7973",
-		"Selected": "#eb7973",
-		"Disabled": "#eb7973",
-		"Pressed": "#eb7973"
+		"Hover": "#f57630",
+		"Default": "#f57630",
+		"Selected": "#f57630",
+		"Disabled": "#f57630",
+		"Pressed": "#f57630"
 	},
 	"ScriptComment": {
 		"Hover": "#6a6f81",
@@ -756,11 +756,11 @@
 		"Pressed": "#202227"
 	},
 	"ScriptNil": {
-		"Hover": "#f2ba2a",
-		"Default": "#f2ba2a",
-		"Selected": "#f2ba2a",
-		"Disabled": "#f2ba2a",
-		"Pressed": "#f2ba2a"
+		"Hover": "#a766f5",
+		"Default": "#a766f5",
+		"Selected": "#a766f5",
+		"Disabled": "#a766f5",
+		"Pressed": "#a766f5"
 	},
 	"FilterButtonChecked": {
 		"Hover": "#2e2e38",
@@ -791,11 +791,11 @@
 		"Pressed": "#353741"
 	},
 	"ScriptNumber": {
-		"Hover": "#f2ba2a",
-		"Default": "#f2ba2a",
-		"Selected": "#f2ba2a",
-		"Disabled": "#f2ba2a",
-		"Pressed": "#f2ba2a"
+		"Hover": "#b682f7",
+		"Default": "#b682f7",
+		"Selected": "#b682f7",
+		"Disabled": "#b682f7",
+		"Pressed": "#b682f7"
 	},
 	"DialogButtonBorder": {
 		"Hover": "#353741",
@@ -875,11 +875,11 @@
 		"Pressed": "#191a1f"
 	},
 	"ScriptLocal": {
-		"Hover": "#eb7973",
-		"Default": "#eb7973",
-		"Selected": "#eb7973",
-		"Disabled": "#eb7973",
-		"Pressed": "#eb7973"
+		"Hover": "#cd377b",
+		"Default": "#cd377b",
+		"Selected": "#cd377b",
+		"Disabled": "#cd377b",
+		"Pressed": "#cd377b"
 	},
 	"DiffLineNumDeletionBackground": {
 		"Hover": "#571e00",
