@@ -40,6 +40,26 @@
         "label": "Roblox Studio Dark Default",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-default-color-theme.json"
+      },
+      {
+        "label": "Roblox Studio Light Extra 1",
+        "uiTheme": "vs",
+        "path": "./themes/light-extra-1-color-theme.json"
+      },
+      {
+        "label": "Roblox Studio Dark Extra 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-extra-1-color-theme.json"
+      },
+      {
+        "label": "Roblox Studio Light Extra 2",
+        "uiTheme": "vs",
+        "path": "./themes/light-extra-2-color-theme.json"
+      },
+      {
+        "label": "Roblox Studio Dark Extra 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-extra-2-color-theme.json"
       }
     ]
   },
