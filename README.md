@@ -40,7 +40,7 @@ Roblox Studio Light Extra 2
 
 If you have custom script editor colors, you can use the generator at [`src/vscode-theme.luau`](src/vscode-theme.luau) to create your own custom theme.
 
-# License
+## License
 
 Copyright © 2026 Ryan Luu
 
