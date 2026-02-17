@@ -52,9 +52,14 @@
   "icon": "images/icon.png",
   "badges": [
     {
-      "description": "Chat in the Roblox OSS Discord server",
+      "description": "Roblox OSS Discord",
       "url": "https://img.shields.io/discord/385151591524597761?logo=discord&logoColor=white&label=roblox%20oss&color=00be9c",
       "href": "https://discord.gg/Qm3JNyEc32"
+    },
+    {
+      "description": "Preview in vscode.dev",
+      "url": "https://img.shields.io/badge/preview%20in-vscode.dev-blue",
+      "href": "https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme"
     }
   ],
   "galleryBanner": {
