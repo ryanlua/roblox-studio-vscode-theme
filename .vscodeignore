@@ -1,6 +1,9 @@
+.devcontainer/**
 .github/**
 .vscode/**
 .vscode-test/**
-data/**
+src/**
 .gitignore
+.prettier*
+selene.toml
 vsc-extension-quickstart.md
