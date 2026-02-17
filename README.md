@@ -14,8 +14,6 @@ VS Code theme based on Roblox Studio's next-generation UI, with themes for both 
 
 <summary>All themes</summary>
 
-## Dark
-
 Roblox Studio Dark Default
 ![Roblox Studio Dark Default theme](https://raw.githubusercontent.com/ryanlua/roblox-studio-vscode-theme/refs/heads/main/images/dark-default.png)
 
@@ -24,8 +22,6 @@ Roblox Studio Dark Extra 1
 
 Roblox Studio Dark Extra 2
 ![Roblox Studio Dark Extra 2 theme](https://raw.githubusercontent.com/ryanlua/roblox-studio-vscode-theme/refs/heads/main/images/dark-extra-2.png)
-
-## Light
 
 Roblox Studio Light Default
 ![Roblox Studio Light Default theme](https://raw.githubusercontent.com/ryanlua/roblox-studio-vscode-theme/refs/heads/main/images/light-default.png)
