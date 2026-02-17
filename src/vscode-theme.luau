@@ -16,24 +16,28 @@ local function getStudioColor(name: Enum.StudioStyleGuideColor, modifier: Enum.S
 end
 
 local vscodeTheme = {
+	-- Colors for VS Code UI elements, such as the editor background, activity bar, etc.
+	-- https://code.visualstudio.com/api/references/theme-color
 	colors = {
-		["foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		-- Base colors
 		["focusBorder"] = getStudioColor(Enum.StudioStyleGuideColor.ButtonBorder),
-		-- ["widget.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
 		["widget.shadow"] = getStudioColor(Enum.StudioStyleGuideColor.Shadow),
 		["selection.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
 		["icon.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
-		["textLink.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.LinkText),
+
+		-- Text colors
 		["textLink.activeForeground"] = getStudioColor(
 			Enum.StudioStyleGuideColor.LinkText,
 			Enum.StudioStyleGuideModifier.Hover
 		),
+		["textLink.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.LinkText),
 
-		-- Button Colors
+		-- Button control
 		["button.background"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButton),
 		["button.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
-		["button.separator"] = getStudioColor(Enum.StudioStyleGuideColor.DialogButtonBorder),
 		["button.border"] = getStudioColor(Enum.StudioStyleGuideColor.DialogButtonBorder),
+		["button.separator"] = getStudioColor(Enum.StudioStyleGuideColor.DialogButtonBorder),
 		["button.hoverBackground"] = getStudioColor(
 			Enum.StudioStyleGuideColor.DialogMainButton,
 			Enum.StudioStyleGuideModifier.Hover
@@ -45,36 +49,28 @@ local vscodeTheme = {
 			Enum.StudioStyleGuideModifier.Hover
 		),
 
-		-- Diff Colors
-		["diffEditor.insertedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextAdditionBackground),
-		["diffEditor.removedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextDeletionBackground),
-
-		-- Editor Colors
-		["editor.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptBackground),
-		["editor.findMatchBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
-		["editor.findMatchHighlightBackground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.ScriptFindSelectionBackground
-		),
-		["editor.findMatchHighlightForeground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
-		["editor.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptText),
-		["editor.lineHighlightBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptEditorCurrentLine),
-		["editor.selectionBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
-		["editorError.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptError),
-		["editorGroup.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		["editorGroupHeader.tabsBorder"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
-		["editorGutter.addedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumAdditionBackground),
-		["editorGutter.deletedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumDeletionBackground),
-		["editorHint.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptHint),
-		["editorInfo.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptInformation),
-		["editorWarning.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWarning),
-		["editorWhitespace.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWhitespace),
-
-		-- Input Colors
+		-- Input control
 		["input.background"] = getStudioColor(Enum.StudioStyleGuideColor.InputFieldBackground),
 		["input.border"] = getStudioColor(Enum.StudioStyleGuideColor.InputFieldBorder),
 
-		-- List Colors
+		-- Scrollbar control
+		["scrollbar.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScrollBarBackground),
+		["scrollbar.shadow"] = getStudioColor(Enum.StudioStyleGuideColor.Shadow),
+		["scrollbarSlider.activeBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.ScrollBar,
+			Enum.StudioStyleGuideModifier.Pressed
+		),
+		["scrollbarSlider.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScrollBar),
+		["scrollbarSlider.hoverBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.ScrollBar,
+			Enum.StudioStyleGuideModifier.Hover
+		),
+
+		-- Badge
+		["badge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
+		["badge.background"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButton),
+
+		-- Lists and trees
 		["list.activeSelectionBackground"] = getStudioColor(
 			Enum.StudioStyleGuideColor.Item,
 			Enum.StudioStyleGuideModifier.Selected
@@ -84,27 +80,58 @@ local vscodeTheme = {
 			Enum.StudioStyleGuideColor.Item,
 			Enum.StudioStyleGuideModifier.Hover
 		),
+		["list.inactiveSelectionForeground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
 		["list.errorForeground"] = getStudioColor(Enum.StudioStyleGuideColor.ErrorText),
 		["list.warningForeground"] = getStudioColor(Enum.StudioStyleGuideColor.WarningText),
 
-		-- Menu Bar colors
-		["menubar.selectionForeground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.TitlebarText,
-			Enum.StudioStyleGuideModifier.Selected
-		),
-		["menu.selectionBackground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.TableItem,
-			Enum.StudioStyleGuideModifier.Selected
-		),
-		["menu.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
-		["menu.background"] = getStudioColor(Enum.StudioStyleGuideColor.TableItem),
-		["menu.separatorBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Separator),
-
-		-- Sidebar and Workspace Colors
+		-- Activity Bar
 		["activityBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.RibbonButton),
+		["activityBar.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		["activityBar.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["activityBarBadge.background"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButton),
+		["activityBarBadge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
+		["activityWarningBadge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
+		["activityWarningBadge.background"] = getStudioColor(Enum.StudioStyleGuideColor.WarningText),
+		["activityErrorBadge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
+		["activityErrorBadge.background"] = getStudioColor(Enum.StudioStyleGuideColor.ErrorText),
+
+		-- Side Bar
 		["sideBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.Item),
 		["sideBarSectionHeader.background"] = getStudioColor(Enum.StudioStyleGuideColor.CategoryItem),
+
+		-- Editor Groups & Tabs
+		["editorGroup.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
+		["editorGroupHeader.tabsBorder"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["editorGroupHeader.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["tab.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
+
+		-- Editor colors
+		["editor.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptBackground),
+		["editor.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptText),
+		["editorLineNumber.foreground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.MainText,
+			Enum.StudioStyleGuideModifier.Disabled
+		),
+		["editorLineNumber.activeForeground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		["editor.selectionBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
+		["editor.findMatchBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptSelectionBackground),
+		["editor.findMatchHighlightForeground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		["editor.findMatchHighlightBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.ScriptFindSelectionBackground
+		),
+		["editor.lineHighlightBackground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptEditorCurrentLine),
+		["editorWhitespace.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWhitespace),
+		["editorError.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptError),
+		["editorWarning.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptWarning),
+		["editorHint.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptHint),
+		["editorInfo.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptInformation),
+		["editorGutter.addedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumAdditionBackground),
+		["editorGutter.deletedBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffLineNumDeletionBackground),
+
+		-- Diff editor colors
+		["diffEditor.insertedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextAdditionBackground),
+		["diffEditor.removedTextBackground"] = getStudioColor(Enum.StudioStyleGuideColor.DiffTextDeletionBackground),
 
 		-- Status Bar colors
 		["statusBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.StatusBar),
@@ -123,31 +150,21 @@ local vscodeTheme = {
 		["titleBar.inactiveForeground"] = getStudioColor(Enum.StudioStyleGuideColor.TitlebarText),
 		["titleBar.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 
-		-- Scrollbar Colors
-		["scrollbar.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScrollBarBackground),
-		["scrollbarSlider.activeBackground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.ScrollBar,
-			Enum.StudioStyleGuideModifier.Pressed
+		-- Menu Bar colors
+		["menubar.selectionForeground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.TitlebarText,
+			Enum.StudioStyleGuideModifier.Selected
 		),
-		["scrollbarSlider.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScrollBar),
-		["scrollbarSlider.hoverBackground"] = getStudioColor(
-			Enum.StudioStyleGuideColor.ScrollBar,
-			Enum.StudioStyleGuideModifier.Hover
+		["menu.selectionBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.TableItem,
+			Enum.StudioStyleGuideModifier.Selected
 		),
-
-		-- Badge Colors
-		["badge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
-		["badge.background"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButton),
-		["activityBarBadge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
-		["activityBarBadge.background"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButton),
-		["activityWarningBadge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
-		["activityWarningBadge.background"] = getStudioColor(Enum.StudioStyleGuideColor.WarningText),
-		["activityErrorBadge.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.DialogMainButtonText),
-		["activityErrorBadge.background"] = getStudioColor(Enum.StudioStyleGuideColor.ErrorText),
-
-		-- Activity bar
-		["activityBar.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		["menu.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		["menu.background"] = getStudioColor(Enum.StudioStyleGuideColor.TableItem),
+		["menu.separatorBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Separator),
 	},
+	-- Colors for syntax highlighting in the editor
+	-- https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#semantic-theming
 	tokenColors = {
 		{
 			name = "Text Color",
