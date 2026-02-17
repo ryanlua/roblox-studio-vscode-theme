@@ -73,14 +73,19 @@
   "icon": "images/icon.png",
   "badges": [
     {
-      "description": "Roblox OSS Discord",
-      "url": "https://img.shields.io/discord/385151591524597761?logo=discord&logoColor=white&label=roblox%20oss&color=00be9c",
-      "href": "https://discord.gg/Qm3JNyEc32"
+      "description": "Visual Studio Marketplace",
+      "url": "https://img.shields.io/visual-studio-marketplace/v/ryanluu.roblox-studio-vscode-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ryanluu.roblox-studio-vscode-theme"
     },
     {
       "description": "Preview in vscode.dev",
       "url": "https://img.shields.io/badge/preview%20in-vscode.dev-blue",
       "href": "https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme"
+    },
+    {
+      "description": "Discord",
+      "url": "https://img.shields.io/discord/385151591524597761?label=roblox%20oss%20discord&color=00be9c",
+      "href": "https://discord.gg/Qm3JNyEc32"
     }
   ],
   "galleryBanner": {
