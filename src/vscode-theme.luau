@@ -97,6 +97,8 @@ local vscodeTheme = {
 
 		-- Side Bar
 		["sideBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.Item),
+		["sideBar.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["tab.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["sideBarSectionHeader.background"] = getStudioColor(Enum.StudioStyleGuideColor.CategoryItem),
 
 		-- Editor Groups & Tabs
@@ -136,6 +138,7 @@ local vscodeTheme = {
 		-- Status Bar colors
 		["statusBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.StatusBar),
 		["statusBar.foreground"] = getStudioColor(Enum.StudioStyleGuideColor.MainText),
+		["statusBar.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 
 		-- Title Bar colors
 		["titleBar.activeBackground"] = getStudioColor(
