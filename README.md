@@ -33,3 +33,13 @@ Roblox Studio Light Extra 2
 ![Roblox Studio Light Extra 2 theme](https://raw.githubusercontent.com/ryanlua/roblox-studio-vscode-theme/refs/heads/main/images/light-extra-2.png)
 
 </details>
+
+## Theme Generator
+
+If you have custom script editor colors, you can use the generator at [`src/vscode-theme.luau`](src/vscode-theme.luau) to create your own custom theme.
+
+# License
+
+Copyright © 2026 Ryan Luu
+
+Licensed under the [MIT](LICENSE.md) license.
