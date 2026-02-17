@@ -105,7 +105,7 @@ local vscodeTheme = {
 		["editorGroup.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
 		["editorGroupHeader.tabsBorder"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		["editorGroupHeader.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		-- ["editorGroupHeader.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["tab.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
 
 		-- Editor colors
