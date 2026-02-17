@@ -81,47 +81,35 @@
 	},
 	"tokenColors": [
 		{
-			"scope": [
-				"variable",
-				"support.variable"
-			],
+			"scope": ["variable", "support.variable"],
 			"name": "Text Color",
 			"settings": {
 				"foreground": "#d5d7dd"
 			}
 		},
 		{
-			"scope": [
-				"keyword.operator",
-				"source"
-			],
+			"scope": ["keyword.operator", "source"],
 			"name": "Operator Color",
 			"settings": {
 				"foreground": "#fa945a"
 			}
 		},
 		{
-			"scope": [
-				"constant.numeric"
-			],
+			"scope": ["constant.numeric"],
 			"name": "Number Color",
 			"settings": {
 				"foreground": "#fa945a"
 			}
 		},
 		{
-			"scope": [
-				"string"
-			],
+			"scope": ["string"],
 			"name": "String Color",
 			"settings": {
 				"foreground": "#8ee9b6"
 			}
 		},
 		{
-			"scope": [
-				"comment"
-			],
+			"scope": ["comment"],
 			"name": "Comment Color",
 			"settings": {
 				"foreground": "#bcbec8"
@@ -152,19 +140,14 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.property",
-				"variable.language.metamethod"
-			],
+			"scope": ["variable.other.property", "variable.language.metamethod"],
 			"name": "Local Property Color",
 			"settings": {
 				"foreground": "#d5d7dd"
 			}
 		},
 		{
-			"scope": [
-				"constant.language.nil"
-			],
+			"scope": ["constant.language.nil"],
 			"name": "'nil' Color",
 			"settings": {
 				"foreground": "#e75750",
@@ -172,9 +155,7 @@
 			}
 		},
 		{
-			"scope": [
-				"constant.language.boolean"
-			],
+			"scope": ["constant.language.boolean"],
 			"name": "Bool Color",
 			"settings": {
 				"foreground": "#e75750",
@@ -182,9 +163,7 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.function"
-			],
+			"scope": ["meta.function"],
 			"name": "'function' Color",
 			"settings": {
 				"foreground": "#bcbec8",
@@ -192,9 +171,7 @@
 			}
 		},
 		{
-			"scope": [
-				"storage.modifier.local"
-			],
+			"scope": ["storage.modifier.local"],
 			"name": "'local' Color",
 			"settings": {
 				"foreground": "#e75750",
@@ -202,9 +179,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.language.self"
-			],
+			"scope": ["variable.language.self"],
 			"name": "'self' Color",
 			"settings": {
 				"foreground": "#e75750",
@@ -212,29 +187,21 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.function"
-			],
+			"scope": ["entity.name.function"],
 			"name": "Function Name Color",
 			"settings": {
 				"foreground": "#65d79d"
 			}
 		},
 		{
-			"scope": [
-				"punctuation"
-			],
+			"scope": ["punctuation"],
 			"name": "Script Bracket Color",
 			"settings": {
 				"foreground": "#fa945a"
 			}
 		},
 		{
-			"scope": [
-				"storage.type",
-				"support.type",
-				"entity.name.type"
-			],
+			"scope": ["storage.type", "support.type", "entity.name.type"],
 			"name": "Type Color",
 			"settings": {
 				"foreground": "#d5d7dd"

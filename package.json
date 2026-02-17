@@ -1,93 +1,94 @@
 {
-  "name": "roblox-studio-vscode-theme",
-  "displayName": "Roblox Studio Themes",
-  "version": "0.0.1",
-  "private": true,
-  "description": "Roblox Studio light and dark theme for VS Code",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "dark",
-    "light",
-    "luau",
-    "roblox",
-    "theme"
-  ],
-  "homepage": "https://github.com/ryanlua/roblox-studio-vscode-theme/blob/main/README.md",
-  "bugs": {
-    "url": "https://github.com/ryanlua/roblox-studio-vscode-theme/issues",
-    "email": "support@ryanluu.dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryanlua/roblox-studio-vscode-theme.git"
-  },
-  "license": "MIT",
-  "author": "Ryan Luu <ryan.luu@ryanluu.dev>",
-  "publisher": "ryanluu",
-  "scripts": {
-    "deploy": "vsce publish --yarn"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Roblox Studio Light Default",
-        "uiTheme": "vs",
-        "path": "./themes/light-default-color-theme.json"
-      },
-      {
-        "label": "Roblox Studio Dark Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-default-color-theme.json"
-      },
-      {
-        "label": "Roblox Studio Light Extra 1",
-        "uiTheme": "vs",
-        "path": "./themes/light-extra-1-color-theme.json"
-      },
-      {
-        "label": "Roblox Studio Dark Extra 1",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-extra-1-color-theme.json"
-      },
-      {
-        "label": "Roblox Studio Light Extra 2",
-        "uiTheme": "vs",
-        "path": "./themes/light-extra-2-color-theme.json"
-      },
-      {
-        "label": "Roblox Studio Dark Extra 2",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-extra-2-color-theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "@vscode/vsce": "^3.7.1"
-  },
-  "engines": {
-    "vscode": "^1.100.0"
-  },
-  "icon": "images/icon.png",
-  "badges": [
-    {
-      "description": "Roblox OSS Discord",
-      "url": "https://img.shields.io/discord/385151591524597761?logo=discord&logoColor=white&label=roblox%20oss&color=00be9c",
-      "href": "https://discord.gg/Qm3JNyEc32"
-    },
-    {
-      "description": "Preview in vscode.dev",
-      "url": "https://img.shields.io/badge/preview%20in-vscode.dev-blue",
-      "href": "https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme"
-    }
-  ],
-  "galleryBanner": {
-    "color": "#335fff",
-    "theme": "dark"
-  },
-  "preview": true,
-  "sponsor": {
-    "url": "https://github.com/sponsors/ryanlua"
-  }
+	"name": "roblox-studio-vscode-theme",
+	"displayName": "Roblox Studio Themes",
+	"version": "0.0.1",
+	"private": true,
+	"description": "Roblox Studio light and dark theme for VS Code",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"light",
+		"luau",
+		"roblox",
+		"theme"
+	],
+	"homepage": "https://github.com/ryanlua/roblox-studio-vscode-theme/blob/main/README.md",
+	"bugs": {
+		"url": "https://github.com/ryanlua/roblox-studio-vscode-theme/issues",
+		"email": "support@ryanluu.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ryanlua/roblox-studio-vscode-theme.git"
+	},
+	"license": "MIT",
+	"author": "Ryan Luu <ryan.luu@ryanluu.dev>",
+	"publisher": "ryanluu",
+	"scripts": {
+		"deploy": "vsce publish --yarn"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Roblox Studio Light Default",
+				"uiTheme": "vs",
+				"path": "./themes/light-default-color-theme.json"
+			},
+			{
+				"label": "Roblox Studio Dark Default",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-default-color-theme.json"
+			},
+			{
+				"label": "Roblox Studio Light Extra 1",
+				"uiTheme": "vs",
+				"path": "./themes/light-extra-1-color-theme.json"
+			},
+			{
+				"label": "Roblox Studio Dark Extra 1",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-extra-1-color-theme.json"
+			},
+			{
+				"label": "Roblox Studio Light Extra 2",
+				"uiTheme": "vs",
+				"path": "./themes/light-extra-2-color-theme.json"
+			},
+			{
+				"label": "Roblox Studio Dark Extra 2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-extra-2-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.7.1",
+		"prettier": "3.8.1"
+	},
+	"engines": {
+		"vscode": "^1.100.0"
+	},
+	"icon": "images/icon.png",
+	"badges": [
+		{
+			"description": "Roblox OSS Discord",
+			"url": "https://img.shields.io/discord/385151591524597761?logo=discord&logoColor=white&label=roblox%20oss&color=00be9c",
+			"href": "https://discord.gg/Qm3JNyEc32"
+		},
+		{
+			"description": "Preview in vscode.dev",
+			"url": "https://img.shields.io/badge/preview%20in-vscode.dev-blue",
+			"href": "https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme"
+		}
+	],
+	"galleryBanner": {
+		"color": "#335fff",
+		"theme": "dark"
+	},
+	"preview": true,
+	"sponsor": {
+		"url": "https://github.com/sponsors/ryanlua"
+	}
 }
