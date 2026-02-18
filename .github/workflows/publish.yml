@@ -21,6 +21,7 @@ jobs:
         run: npm ci
       - name: Publish VSIX
         run: npm run deploy
+        continue-on-error: true
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
