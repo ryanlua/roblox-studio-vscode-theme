@@ -27,7 +27,7 @@
 	"author": "Ryan Luu <ryan.luu@ryanluu.dev>",
 	"publisher": "ryanluu",
 	"scripts": {
-		"deploy": "vsce publish --yarn"
+		"deploy": "vsce publish"
 	},
 	"contributes": {
 		"themes": [
