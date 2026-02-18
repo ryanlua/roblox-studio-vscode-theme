@@ -4,7 +4,7 @@
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme)
 [![Discord](https://img.shields.io/discord/385151591524597761?label=roblox%20oss%20discord&color=00be9c)](https://discord.gg/Qm3JNyEc32)
 
-VS Code theme based on Roblox Studio's next-generation UI, with themes for both light and dark modes including extra script editor themes.
+VS Code theme based on Roblox Studio's next-generation UI, with themes for both light and dark modes, including extra script editor themes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryanlua/roblox-studio-vscode-theme/refs/heads/main/images/dark-default.png">
@@ -38,7 +38,7 @@ Roblox Studio Light Extra 2
 
 ## Theme Generator
 
-If you have custom script editor colors, you can use the generator at [`src/vscode-theme.luau`](src/vscode-theme.luau) to create your own custom theme.
+If you have custom script editor colors, you can use the [VS Code theme generator](src/vscode-theme.luau) to create your own custom theme.
 
 ## License
 
