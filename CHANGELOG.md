@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Generator to generate VS Code themes from Roblox Studio
+- Themes for "Extra" color themes in the script editor
+- Additional badges for version, preview, and Discord
+
 ### Changed
 
 - Update icon to match Roblox
