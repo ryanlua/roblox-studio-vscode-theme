@@ -14,12 +14,12 @@ local colors = Enum.StudioStyleGuideColor:GetEnumItems()
 local studioTheme = {}
 
 -- Get hex colors from current Roblox Studio theme
-for _, color in ipairs(colors) do
+for _, color in colors do
 	local theme = settings().Studio.Theme :: StudioTheme
 
 	studioTheme[color.Name] = {}
 
-	for _, modifier in ipairs(modifiers) do
+	for _, modifier in modifiers do
 		studioTheme[color.Name][modifier.Name] = "#" .. theme:GetColor(color, modifier):ToHex()
 	end
 end
