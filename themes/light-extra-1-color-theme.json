@@ -18,12 +18,14 @@
 		"list.inactiveSelectionBackground": "#ebf1ff",
 		"scrollbar.background": "#eeeff1",
 		"icon.foreground": "#000000",
+		"breadcrumb.background": "#ffffff",
 		"editor.foreground": "#000000",
 		"activityBarBadge.background": "#335fff",
 		"list.warningForeground": "#f57630",
 		"editorGroup.border": "#bcbec8",
 		"list.inactiveSelectionForeground": "#000000",
 		"textLink.activeForeground": "#528bff",
+		"editorGroupHeader.border": "#bcbec8",
 		"foreground": "#000000",
 		"menu.selectionBackground": "#d0dafe",
 		"editor.findMatchBackground": "#d0dafe",
@@ -35,38 +37,39 @@
 		"tab.inactiveBackground": "#eeeff1",
 		"button.hoverBackground": "#528bff",
 		"scrollbarSlider.hoverBackground": "#ebf1ff",
-		"badge.background": "#335fff",
 		"menu.separatorBackground": "#bcbec8",
-		"statusBar.foreground": "#000000",
+		"badge.background": "#335fff",
 		"menu.background": "#f7f7f8",
-		"titleBar.activeForeground": "#000000",
+		"statusBar.foreground": "#000000",
+		"titleBar.activeBackground": "#e6e7ea",
 		"menubar.selectionForeground": "#000000",
-		"titleBar.inactiveBackground": "#e6e7ea",
 		"titleBar.border": "#bcbec8",
+		"titleBar.inactiveBackground": "#e6e7ea",
 		"titleBar.inactiveForeground": "#000000",
+		"titleBar.activeForeground": "#000000",
 		"menu.foreground": "#000000",
 		"button.secondaryHoverBackground": "#ebf1ff",
-		"titleBar.activeBackground": "#e6e7ea",
-		"button.foreground": "#ffffff",
 		"statusBar.background": "#ffffff",
-		"editorHint.foreground": "#335fff",
+		"button.foreground": "#ffffff",
 		"diffEditor.removedTextBackground": "#ffdfde",
-		"focusBorder": "#bcbec8",
+		"editorHint.foreground": "#335fff",
 		"diffEditor.insertedTextBackground": "#e6e7ea",
+		"focusBorder": "#bcbec8",
+		"editorGutter.deletedBackground": "#f7cdcb",
 		"input.border": "#bcbec8",
 		"editorWhitespace.foreground": "#bcbec8",
-		"editorGutter.deletedBackground": "#f7cdcb",
+		"editorError.foreground": "#df281f",
 		"activityBarBadge.foreground": "#ffffff",
 		"editorGutter.addedBackground": "#d0fbe3",
 		"activityWarningBadge.background": "#f57630",
 		"input.background": "#ffffff",
-		"editorError.foreground": "#df281f",
-		"list.activeSelectionBackground": "#d0dafe",
 		"editor.lineHighlightBackground": "#eeeff1",
+		"list.activeSelectionBackground": "#d0dafe",
 		"editor.findMatchHighlightBackground": "#fae4aa",
 		"editorGroupHeader.tabsBackground": "#eeeff1",
 		"editor.selectionBackground": "#d0dafe",
 		"editor.background": "#ffffff",
+		"tab.activeBackground": "#ffffff",
 		"editor.findMatchHighlightForeground": "#000000",
 		"sideBarSectionHeader.background": "#e6e7ea",
 		"sideBar.background": "#ffffff",
@@ -83,37 +86,27 @@
 		{
 			"scope": ["variable", "support.variable"],
 			"name": "Text Color",
-			"settings": {
-				"foreground": "#000000"
-			}
+			"settings": { "foreground": "#000000" }
 		},
 		{
 			"scope": ["keyword.operator", "source"],
 			"name": "Operator Color",
-			"settings": {
-				"foreground": "#000000"
-			}
+			"settings": { "foreground": "#000000" }
 		},
 		{
 			"scope": ["constant.numeric"],
 			"name": "Number Color",
-			"settings": {
-				"foreground": "#01854b"
-			}
+			"settings": { "foreground": "#01854b" }
 		},
 		{
 			"scope": ["string"],
 			"name": "String Color",
-			"settings": {
-				"foreground": "#a41109"
-			}
+			"settings": { "foreground": "#a41109" }
 		},
 		{
 			"scope": ["comment"],
 			"name": "Comment Color",
-			"settings": {
-				"foreground": "#015f35"
-			}
+			"settings": { "foreground": "#015f35" }
 		},
 		{
 			"scope": [
@@ -122,10 +115,7 @@
 				"keyword.control"
 			],
 			"name": "Keyword Color",
-			"settings": {
-				"foreground": "#c00ae8",
-				"fontStyle": "bold"
-			}
+			"settings": { "foreground": "#c00ae8", "fontStyle": "bold" }
 		},
 		{
 			"scope": [
@@ -135,77 +125,52 @@
 				"support.function"
 			],
 			"name": "Built-in Function Color",
-			"settings": {
-				"foreground": "#000000"
-			}
+			"settings": { "foreground": "#000000" }
 		},
 		{
 			"scope": ["variable.other.property", "variable.language.metamethod"],
 			"name": "Local Property Color",
-			"settings": {
-				"foreground": "#001b7a"
-			}
+			"settings": { "foreground": "#001b7a" }
 		},
 		{
 			"scope": ["constant.language.nil"],
 			"name": "'nil' Color",
-			"settings": {
-				"foreground": "#0035f5",
-				"fontStyle": "bold"
-			}
+			"settings": { "foreground": "#0035f5", "fontStyle": "bold" }
 		},
 		{
 			"scope": ["constant.language.boolean"],
 			"name": "Bool Color",
-			"settings": {
-				"foreground": "#0035f5",
-				"fontStyle": "bold"
-			}
+			"settings": { "foreground": "#0035f5", "fontStyle": "bold" }
 		},
 		{
 			"scope": ["meta.function"],
 			"name": "'function' Color",
-			"settings": {
-				"foreground": "#c00ae8",
-				"fontStyle": "bold"
-			}
+			"settings": { "foreground": "#c00ae8", "fontStyle": "bold" }
 		},
 		{
 			"scope": ["storage.modifier.local"],
 			"name": "'local' Color",
-			"settings": {
-				"foreground": "#c00ae8",
-				"fontStyle": "bold"
-			}
+			"settings": { "foreground": "#c00ae8", "fontStyle": "bold" }
 		},
 		{
 			"scope": ["variable.language.self"],
 			"name": "'self' Color",
-			"settings": {
-				"foreground": "#0035f5",
-				"fontStyle": "bold"
-			}
+			"settings": { "foreground": "#0035f5", "fontStyle": "bold" }
 		},
 		{
 			"scope": ["entity.name.function"],
 			"name": "Function Name Color",
-			"settings": {
-				"foreground": "#815d00"
-			}
+			"settings": { "foreground": "#815d00" }
 		},
 		{
 			"scope": ["punctuation"],
 			"name": "Script Bracket Color",
-			"settings": {
-				"foreground": "#000000"
-			}
+			"settings": { "foreground": "#000000" }
 		},
 		{
 			"scope": ["storage.type", "support.type", "entity.name.type"],
 			"name": "Type Color",
-			"settings": {
-				"foreground": "#001b7a"
-			}
+			"settings": { "foreground": "#001b7a" }
 		}
 	]
 }

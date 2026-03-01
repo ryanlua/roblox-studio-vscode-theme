@@ -98,15 +98,17 @@ local vscodeTheme = {
 		-- Side Bar
 		["sideBar.background"] = getStudioColor(Enum.StudioStyleGuideColor.Item),
 		["sideBar.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		["tab.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["sideBarSectionHeader.background"] = getStudioColor(Enum.StudioStyleGuideColor.CategoryItem),
 
 		-- Editor Groups & Tabs
 		["editorGroup.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
 		["editorGroupHeader.tabsBorder"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		-- ["editorGroupHeader.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		["tab.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
+		["editorGroupHeader.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["tab.activeBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Tab, Enum.StudioStyleGuideModifier.Selected),
+		["tab.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
+		["tab.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Tab),
+		["breadcrumb.background"] = getStudioColor(Enum.StudioStyleGuideColor.MainBackground),
 
 		-- Editor colors
 		["editor.background"] = getStudioColor(Enum.StudioStyleGuideColor.ScriptBackground),
