@@ -158,6 +158,11 @@
 			"settings": { "foreground": "#f57630", "fontStyle": "bold" }
 		},
 		{
+			"scope": ["storage.modifier"],
+			"name": "Luau Keyword Color",
+			"settings": { "foreground": "#cd377b", "fontStyle": "bold" }
+		},
+		{
 			"scope": ["entity.name.function"],
 			"name": "Function Name Color",
 			"settings": { "foreground": "#c49315" }
