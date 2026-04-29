@@ -6,16 +6,16 @@
 	Run this in Roblox Studio from the command bar, then save the JSON in the output.
 ]]
 
-local HttpService = game:GetService("HttpService")
+const HttpService = game:GetService("HttpService")
 
-local theme = settings().Studio.Theme :: StudioTheme
+const theme = settings().Studio.Theme :: StudioTheme
 
 -- Get hex color from Roblox Studio theme
-local function getStudioColor(name: Enum.StudioStyleGuideColor, modifier: Enum.StudioStyleGuideModifier?): string?
+const function getStudioColor(name: Enum.StudioStyleGuideColor, modifier: Enum.StudioStyleGuideModifier?): string?
 	return "#" .. theme:GetColor(name, modifier):ToHex()
 end
 
-local vscodeTheme = {
+const vscodeTheme = {
 	-- Colors for VS Code UI elements, such as the editor background, activity bar, etc.
 	-- https://code.visualstudio.com/api/references/theme-color
 	colors = {

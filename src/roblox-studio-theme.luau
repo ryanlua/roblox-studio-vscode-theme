@@ -6,16 +6,16 @@
 	Run this in Roblox Studio from the command bar, then save the JSON in the output.
 ]]
 
-local HttpService = game:GetService("HttpService")
+const HttpService = game:GetService("HttpService")
 
-local modifiers = Enum.StudioStyleGuideModifier:GetEnumItems()
-local colors = Enum.StudioStyleGuideColor:GetEnumItems()
+const modifiers = Enum.StudioStyleGuideModifier:GetEnumItems()
+const colors = Enum.StudioStyleGuideColor:GetEnumItems()
 
-local studioTheme = {}
+const studioTheme = {}
 
 -- Get hex colors from current Roblox Studio theme
 for _, color in colors do
-	local theme = settings().Studio.Theme :: StudioTheme
+	const theme = settings().Studio.Theme :: StudioTheme
 
 	studioTheme[color.Name] = {}
 
@@ -24,5 +24,5 @@ for _, color in colors do
 	end
 end
 
-local json = HttpService:JSONEncode(studioTheme)
+const json = HttpService:JSONEncode(studioTheme)
 print(json)
