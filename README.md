@@ -1,7 +1,7 @@
 # Roblox Studio Themes for VS Code
 
 [![Visual Studio Marketplace Version](https://vsmarketplacebadges.dev/version/ryanluu.roblox-studio-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluu.roblox-studio-vscode-theme)
-[![Visual Studio Marketplace Rating](https://vsmarketplacebadges.dev/rating-star/ryanluu.roblox-studio-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluu.roblox-studio-vscode-theme#review-details)
+[![Visual Studio Marketplace Rating](https://vsmarketplacebadges.dev/rating-star/ryanluu.roblox-studio-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluu.roblox-studio-vscode-theme&ssr=false#review-details)
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme)
 [![Discord](https://img.shields.io/discord/385151591524597761?label=roblox%20oss%20discord&color=00be9c)](https://discord.gg/Qm3JNyEc32)
 
