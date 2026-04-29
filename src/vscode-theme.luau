@@ -269,6 +269,14 @@ local vscodeTheme = {
 			},
 		},
 		{
+			name = "Luau Keyword Color",
+			scope = { "storage.modifier" },
+			settings = {
+				fontStyle = "bold",
+				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptLuauKeyword),
+			},
+		},
+		{
 			name = "Function Name Color",
 			scope = { "entity.name.function" },
 			settings = {
