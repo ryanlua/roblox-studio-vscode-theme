@@ -16,7 +16,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "rokit install --no-trust-check",
+	"postCreateCommand": "npm install && rokit install --no-trust-check",
 
 	// Configure tool-specific properties.
 	"customizations": {
