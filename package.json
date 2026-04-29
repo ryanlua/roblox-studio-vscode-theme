@@ -73,11 +73,6 @@
   "icon": "images/icon.png",
   "badges": [
     {
-      "description": "Visual Studio Marketplace",
-      "url": "https://img.shields.io/visual-studio-marketplace/v/ryanluu.roblox-studio-vscode-theme",
-      "href": "https://marketplace.visualstudio.com/items?itemName=ryanluu.roblox-studio-vscode-theme"
-    },
-    {
       "description": "Preview in vscode.dev",
       "url": "https://img.shields.io/badge/preview%20in-vscode.dev-blue",
       "href": "https://vscode.dev/editor/theme/ryanluu.roblox-studio-vscode-theme"
