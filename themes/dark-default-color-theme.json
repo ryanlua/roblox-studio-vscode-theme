@@ -145,7 +145,7 @@
 		{
 			"scope": ["meta.function"],
 			"name": "'function' Color",
-			"settings": { "foreground": "#eb7973", "fontStyle": "bold" }
+			"settings": { "foreground": "#eb7973" }
 		},
 		{
 			"scope": ["storage.modifier.local"],

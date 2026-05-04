@@ -248,7 +248,6 @@ const vscodeTheme = {
 			name = "'function' Color",
 			scope = { "meta.function" },
 			settings = {
-				fontStyle = "bold",
 				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptFunction),
 			},
 		},
