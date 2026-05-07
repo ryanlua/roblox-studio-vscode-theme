@@ -1,6 +1,8 @@
 {
 	"recommendations": [
 		"esbenp.prettier-vscode",
-		"kampfkarren.selene-vscode"
+		"kampfkarren.selene-vscode",
+		"johnnymorganz.stylua",
+		"johnnymorganz.luau-lsp"
 	]
 }
