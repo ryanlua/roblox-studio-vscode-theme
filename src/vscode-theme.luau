@@ -269,7 +269,7 @@ const vscodeTheme = {
 		},
 		{
 			name = "Luau Keyword Color",
-			scope = { "storage.modifier" },
+			scope = { "storage.modifier", "storage.type" },
 			settings = {
 				fontStyle = "bold",
 				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptLuauKeyword),
@@ -291,7 +291,7 @@ const vscodeTheme = {
 		},
 		{
 			name = "Type Color",
-			scope = { "storage.type", "support.type", "entity.name.type" },
+			scope = { "support.type" },
 			settings = {
 				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptProperty),
 			},

@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Incorrectly bolding function parameters
+- Incorrect colors and weight for type keyword and type
 
 ## [0.1.2] - 2026-04-28
 

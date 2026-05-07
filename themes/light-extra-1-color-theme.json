@@ -158,7 +158,7 @@
 			"settings": { "foreground": "#0035f5", "fontStyle": "bold" }
 		},
 		{
-			"scope": ["storage.modifier"],
+			"scope": ["storage.modifier", "storage.type"],
 			"name": "Luau Keyword Color",
 			"settings": { "foreground": "#0035f5", "fontStyle": "bold" }
 		},
@@ -173,7 +173,7 @@
 			"settings": { "foreground": "#000000" }
 		},
 		{
-			"scope": ["storage.type", "support.type", "entity.name.type"],
+			"scope": ["support.type"],
 			"name": "Type Color",
 			"settings": { "foreground": "#001b7a" }
 		}
