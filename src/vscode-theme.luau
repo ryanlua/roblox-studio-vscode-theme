@@ -279,6 +279,7 @@ const vscodeTheme = {
 			name = "Function Name Color",
 			scope = { "entity.name.function" },
 			settings = {
+				fontStyle = "",
 				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptFunctionName),
 			},
 		},

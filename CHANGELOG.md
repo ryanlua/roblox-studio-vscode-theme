@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Function calls being bolded
 - Attribute keyword color '@' not being colored
 - Incorrectly bolding function parameters
 - Incorrect colors and weight for type keyword and type
