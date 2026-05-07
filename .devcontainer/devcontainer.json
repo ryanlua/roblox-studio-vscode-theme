@@ -14,9 +14,9 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [34872],
 	"portsAttributes": {
-			"34872": {
-				"label": "Rojo"
-			}
+		"34872": {
+			"label": "Rojo"
+		}
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
