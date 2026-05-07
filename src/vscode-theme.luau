@@ -208,7 +208,7 @@ const vscodeTheme = {
 		},
 		{
 			name = "Keyword Color",
-			scope = { "keyword.operator.wordlike", "storage.modifier.visibility", "keyword.control" },
+			scope = { "keyword.operator.wordlike", "storage.modifier.visibility", "keyword.control", "keyword.operator.attribute" },
 			settings = {
 				fontStyle = "bold",
 				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptKeyword),
