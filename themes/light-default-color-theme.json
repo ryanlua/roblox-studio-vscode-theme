@@ -112,7 +112,8 @@
 			"scope": [
 				"keyword.operator.wordlike",
 				"storage.modifier.visibility",
-				"keyword.control"
+				"keyword.control",
+				"keyword.operator.attribute"
 			],
 			"name": "Keyword Color",
 			"settings": { "foreground": "#001b7a", "fontStyle": "bold" }
@@ -165,7 +166,7 @@
 		{
 			"scope": ["entity.name.function"],
 			"name": "Function Name Color",
-			"settings": { "foreground": "#002dd6" }
+			"settings": { "foreground": "#002dd6", "fontStyle": "" }
 		},
 		{
 			"scope": ["punctuation"],
