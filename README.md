@@ -41,7 +41,19 @@ Roblox Studio Light Extra 2
 
 If you have custom script editor colors, you can use the [VS Code theme generator](src/vscode-theme.luau) to create your own custom theme.
 
-## Font
+## VS Code Settings
+
+### Bracket Colors
+
+Bracket pair colorization is enabled by default in VS Code, but Roblox Studio does not use bracket colors, so you may want to disable that in your VS Code settings:
+
+```json
+{
+	"editor.bracketPairColorization.enabled": false
+}
+```
+
+### Font
 
 Roblox Studio uses the [Fira Mono](https://github.com/mozilla/Fira) font for its script editor, so you may want to set that as your editor font in VS Code:
 
