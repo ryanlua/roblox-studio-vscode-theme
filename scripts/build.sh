@@ -11,9 +11,9 @@ echo "Cleaning up previous build artifacts..."
 rm -f "$OUTPUT_NAME.rbxm" "$OUTPUT_NAME.rbxmx"
 
 # Build .rbxm file
-rojo build --output "$OUTPUT_NAME.rbxm" $ROJO_PROJECT
+rojo build $ROJO_PROJECT --output "$OUTPUT_NAME.rbxm"
 
 # Build .rbxmx file
-rojo build --output "$OUTPUT_NAME.rbxmx" $ROJO_PROJECT
+rojo build $ROJO_PROJECT --output "$OUTPUT_NAME.rbxmx"
 
 echo "Build completed successfully!"

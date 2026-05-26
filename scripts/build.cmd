@@ -12,9 +12,9 @@ if exist "%OUTPUT_NAME%.rbxm" del /q "%OUTPUT_NAME%.rbxm"
 if exist "%OUTPUT_NAME%.rbxmx" del /q "%OUTPUT_NAME%.rbxmx"
 
 REM Build .rbxm file
-rojo build --output "%OUTPUT_NAME%.rbxm" %ROJO_PROJECT%
+rojo build %ROJO_PROJECT% --output "%OUTPUT_NAME%.rbxm"
 
 REM Build .rbxmx file
-rojo build --output "%OUTPUT_NAME%.rbxmx" %ROJO_PROJECT%
+rojo build %ROJO_PROJECT% --output "%OUTPUT_NAME%.rbxmx"
 
 echo Build completed successfully!
