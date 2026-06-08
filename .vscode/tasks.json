@@ -2,11 +2,11 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Build Rojo project",
+			"label": "Build model",
 			"type": "shell",
-			"command": "./scripts/build.sh",
+			"command": "rojo build -o ThemeTests.rbxm && rojo build -o ThemeTests.rbxmx",
 			"windows": {
-				"command": ".\\scripts\\build.cmd"
+				"command": "rojo build -o ThemeTests.rbxm; rojo build -o ThemeTests.rbxmx"
 			},
 			"problemMatcher": [],
 			"group": {
