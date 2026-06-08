@@ -4,9 +4,9 @@
 		{
 			"label": "Build model",
 			"type": "shell",
-			"command": "rojo build -o ThemeTests.rbxm && rojo build -o ThemeTests.rbxmx",
+			"command": "rojo build --output ThemeTests.rbxm && rojo build --output ThemeTests.rbxmx",
 			"windows": {
-				"command": "rojo build -o ThemeTests.rbxm; rojo build -o ThemeTests.rbxmx"
+				"command": "rojo build --output ThemeTests.rbxm; rojo build --output ThemeTests.rbxmx"
 			},
 			"problemMatcher": [],
 			"group": {
