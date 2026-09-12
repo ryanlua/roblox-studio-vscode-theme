@@ -300,5 +300,5 @@ const vscodeTheme = {
 	},
 }
 
-local json = HttpService:JSONEncode(vscodeTheme)
+const json = HttpService:JSONEncode(vscodeTheme)
 print(json)
