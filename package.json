@@ -64,8 +64,8 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.9.2",
-    "prettier": "3.8.4"
+    "@vscode/vsce": "^4.0.0",
+    "prettier": "3.9.8"
   },
   "engines": {
     "vscode": "^1.100.0"
