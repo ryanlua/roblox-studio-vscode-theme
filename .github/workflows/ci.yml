@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Install Rokit toolchain
+        uses: CompeyDev/setup-rokit@v0.2.1
+      - name: Run StyLua
+        run: stylua --check src/
+      - name: Run selene
+        run: selene src/
+      - name: Build Rojo project
+        run: |
+          rojo build --output ThemeTests.rbxm
+          rojo build --output ThemeTests.rbxmx
+      - name: Archive build files
+        uses: actions/upload-artifact@v7
+        with:
+          name: ThemeTests
+          path: |
+            *.rbxm
+            *.rbxmx
+          if-no-files-found: error
