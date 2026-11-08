@@ -105,7 +105,10 @@ const vscodeTheme = {
 		["editorGroupHeader.tabsBackground"] = getStudioColor(Enum.StudioStyleGuideColor.TabBar),
 		["editorGroupHeader.tabsBorder"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["editorGroupHeader.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
-		["tab.activeBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Tab, Enum.StudioStyleGuideModifier.Selected),
+		["tab.activeBackground"] = getStudioColor(
+			Enum.StudioStyleGuideColor.Tab,
+			Enum.StudioStyleGuideModifier.Selected
+		),
 		["tab.border"] = getStudioColor(Enum.StudioStyleGuideColor.Border),
 		["tab.inactiveBackground"] = getStudioColor(Enum.StudioStyleGuideColor.Tab),
 		["breadcrumb.background"] = getStudioColor(Enum.StudioStyleGuideColor.MainBackground),
@@ -208,7 +211,12 @@ const vscodeTheme = {
 		},
 		{
 			name = "Keyword Color",
-			scope = { "keyword.operator.wordlike", "storage.modifier.visibility", "keyword.control", "keyword.operator.attribute" },
+			scope = {
+				"keyword.operator.wordlike",
+				"storage.modifier.visibility",
+				"keyword.control",
+				"keyword.operator.attribute",
+			},
 			settings = {
 				fontStyle = "bold",
 				foreground = getStudioColor(Enum.StudioStyleGuideColor.ScriptKeyword),
